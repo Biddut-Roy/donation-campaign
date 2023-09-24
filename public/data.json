@@ -1,0 +1,135 @@
+ [
+      {
+        "id":   "1",
+        "Picture": "https://i.ibb.co/F0bjkKq/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Without safe water, children simply cannot survive. Without safe toilets, entire communities live with human waste in their environment. Without taps and soap for handwashing, diseases spread rapidly and newborn babies risk death from infection.",
+        "Price": "$199.99"
+      },
+      {
+        "id":   "2",
+        "Picture": "https://i.ibb.co/vzMhZB8/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "category_bg": "#45AAB8",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id":   "3",
+        "Picture": "https://i.ibb.co/TL61NRq/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "category_bg": "#F29141",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "Price": "$79.99"
+      },
+      {
+        "id":   "4",
+        "Picture": "https://i.ibb.co/JQYd9JB/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "category_bg": "#E44D26",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "Price": "$29.99"
+      },
+      {
+        "id":   "5",
+        "Picture": "https://i.ibb.co/JQYd9JB/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "category_bg": "#E44D26",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "Price": "$29.99"
+      },
+      {
+        "id":   "6",
+        "Picture": "https://i.ibb.co/TL61NRq/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "category_bg": "#F29141",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "Price": "$79.99"
+      },
+      {
+        "id":   "7",
+        "Picture": "https://i.ibb.co/vzMhZB8/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "category_bg": "#45AAB8",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id":   "8",
+        "Picture": "https://i.ibb.co/F0bjkKq/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Without safe water, children simply cannot survive. Without safe toilets, entire communities live with human waste in their environment. Without taps and soap for handwashing, diseases spread rapidly and newborn babies risk death from infection.",
+        "Price": "$199.99"
+      },
+      {
+        "id":   "9",
+        "Picture": "https://i.ibb.co/F0bjkKq/Health.png",
+        "Title": "Clean water for children",
+        "Category": "Health",
+        "category_bg": "#FF5733",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Without safe water, children simply cannot survive. Without safe toilets, entire communities live with human waste in their environment. Without taps and soap for handwashing, diseases spread rapidly and newborn babies risk death from infection.",
+        "Price": "$199.99"
+      },
+      {
+        "id":   "10",
+        "Picture": "https://i.ibb.co/vzMhZB8/Education.png",
+        "Title": "Good education",
+        "Category": "Education",
+        "category_bg": "#45AAB8",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+        "Price": "$49.99"
+      },
+      {
+        "id":   "11",
+        "Picture": "https://i.ibb.co/TL61NRq/Clothing.png",
+        "Title": "Used Clothing Drive",
+        "Category": "Clothing",
+        "category_bg": "#F29141",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "A used clothing drive is philanthropic activity that requests clothing donations from community members or a network of individuals for the benefit of a non profit group or group of vulnerable people. There are many benefits to organizing a used clothing drive.",
+        "Price": "$79.99"
+      },
+      {
+        "id":   "12",
+        "Picture": "https://i.ibb.co/JQYd9JB/Food.png",
+        "Title": "Better Food for Everyone",
+        "Category": "Food",
+        "category_bg": "#E44D26",
+        "card_bg": "#F2F2F2",
+        "Color_for_text": "#333333",
+        "Description": "Everyone has a right to healthy and affordable food. Good food for all means ensuring that people experiencing financial crisis or food poverty can access and afford a healthy diet.",
+        "Price": "$29.99"
+      }
+    ]
+  
