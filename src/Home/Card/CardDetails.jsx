@@ -33,7 +33,6 @@ const CardDetails = () => {
                     <div className="w-full mx-auto opacity-80 py-4 bottom-0 bg-[#4e4d4d] absolute"> 
                     <button onClick={handelClick} className=" ml-5 px-1 py-1 text-white" style={{backgroundColor: findCart.Color_for_text }}>Donate {findCart.Price}</button> 
                     </div>
-                    {/* <button className="" style={{backgroundColor: findCart.Color_for_text }}>Donate {findCart.Price}</button> */}
                 </div>
                 <div className="card-body w-full mx-auto">
                     <h2 className="card-title">{findCart.Title}</h2>

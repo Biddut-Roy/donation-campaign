@@ -9,7 +9,7 @@ const Card = ({ data }) => {
             <div style={{ backgroundColor: card_bg }} className="card bg-base-100 shadow-xl">
                 <figure><img src={Picture} alt="img" /></figure>
                 <div className="pl-2 mt-2 pb-2">
-                    <button style={{ backgroundColor: category_bg, padding: '5px' }} className='rounded'>{Category}</button>
+                    <button style={{ backgroundColor: category_bg, padding: '5px', color: Color_for_text }} className='rounded'>{Category}</button>
                     <p style={{ color: Color_for_text }} className='font-semibold text-lg'>{Title}</p>
                 </div>
             </div>
