@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import {
   createBrowserRouter,
-  json,
+
   RouterProvider,
 } from "react-router-dom";
 import Body from './Body';
 import Home from './Home/Home';
+import CardDetails from './Home/Card/CardDetails';
+import Donate from './Donation/Donate';
 
 
 const router = createBrowserRouter([
@@ -18,15 +20,20 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home> ,
-        loader: ()=> fetch("./data.json")
+        loader: ()=> fetch("../data.json")
       },
       {
         path: "/Donation",
-        element:  <h2>ulu</h2>,
+        element: <Donate></Donate>,
       },
       {
         path: "/Statistics",
         element: <h1>mar fiya</h1> ,
+      },
+      {
+        path: "/CardDetails/:id",
+        element: <CardDetails></CardDetails> ,
+        loader: ()=> fetch("../data.json")
       },
     ],
   },

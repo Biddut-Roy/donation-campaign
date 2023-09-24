@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
-import Banner from "./Banner";
+
 
 const Navbar = () => {
     return (
-        <div>
             <div className="navbar bg-base-100">
         <div className="flex-1">
           <img src="https://i.ibb.co/VxCrfZR/Logo.png" alt="logo" />
@@ -21,9 +20,6 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-      </div>
-      {/* banner section */}
-      <Banner></Banner>
         </div>
     );
 };
