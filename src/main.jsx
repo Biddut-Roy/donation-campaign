@@ -11,6 +11,7 @@ import Home from './Home/Home';
 import CardDetails from './Home/Card/CardDetails';
 import Donate from './Donation/Donate';
 import Statistics from './Statistics/Statistics';
+import Error from './errorPAge/Error';
 
 
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Body></Body>,
+    errorElement:<Error></Error>,
     children: [
       {
         path: "/",

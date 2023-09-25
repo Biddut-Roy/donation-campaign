@@ -21,7 +21,7 @@ const Donate = () => {
        <>
            <div className=" grid grid-cols-2 gap-4">
                    {
-                        remove ?  data.slice(0,4).map( donate => <DonateCart key={donate.id} donate={donate}></DonateCart>)
+                        remove ?  data?.slice(0,4).map( donate => <DonateCart key={donate.id} donate={donate}></DonateCart>)
                         : data.map( donate => <DonateCart key={donate.id} donate={donate}></DonateCart>)
                         
                     }
