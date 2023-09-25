@@ -17,7 +17,7 @@ const Statistics = () => {
     const data = [
         ["Donation Type", "Donation Value", { role: "style" }],
         ["Total Donation", fixedValue, "#E38627"],
-        ["Your Donation", store, "#C13C37"],
+        ["Your Donation", store || 0, "#C13C37"],
         
     ];
 

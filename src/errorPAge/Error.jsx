@@ -9,7 +9,7 @@ const Error = () => {
         <p className=" text-4xl font-bold my-3">404</p>
         <p className=" text-2xl font-medium"> Page Not Found</p>
         <p>
-          {/* <i>{error.statusText || error.message}</i> */}
+          <i>{error.statusText || error.message}</i>
         </p>
       </div>
     );

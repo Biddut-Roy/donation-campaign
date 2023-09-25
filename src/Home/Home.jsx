@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 import Card from "./Card/Card";
 import Banner from "../Nav/Banner";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 
 const Home = () => {
