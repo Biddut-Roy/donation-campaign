@@ -8,9 +8,9 @@ const Statistics = () => {
 
     useEffect(() => {
         const getData = JSON.parse(localStorage.getItem("Donate"))
-        const storeDonate = getData.length;
+        const storeDonate = getData?.length;
         setStore(storeDonate)
-    }, [])
+    }, [store])
 
     const fixedValue = Total.length;
 

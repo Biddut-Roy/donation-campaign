@@ -23,7 +23,7 @@ const Home = () => {
          <div className=" mb-4">
          <Banner  clickHandel={clickHandel}></Banner>
          </div>
-        <div className=" grid grid-cols-4 gap-2">
+        <div className=" grid md:grid-cols-3 lg:grid-cols-4 gap-3">
             {
                 dataBox.map( data => <Card key={data.id} data={data}></Card>)
             }
