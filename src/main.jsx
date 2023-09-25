@@ -10,6 +10,8 @@ import Body from './Body';
 import Home from './Home/Home';
 import CardDetails from './Home/Card/CardDetails';
 import Donate from './Donation/Donate';
+import Statistics from './Statistics/Statistics';
+
 
 
 const router = createBrowserRouter([
@@ -28,7 +30,9 @@ const router = createBrowserRouter([
       },
       {
         path: "/Statistics",
-        element: <h1>mar fiya</h1> ,
+        element: <Statistics></Statistics> ,
+        loader: ()=> fetch("../data.json")
+       
       },
       {
         path: "/CardDetails/:id",
