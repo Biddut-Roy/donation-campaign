@@ -1,18 +1,31 @@
 import { useLoaderData } from "react-router-dom";
 import Card from "./Card/Card";
 import Banner from "../Nav/Banner";
+import { useEffect, useState } from "react";
 
 
 const Home = () => {
     const allData = useLoaderData();
+
+    const [dataBox , setDataBox] = useState(allData)
+
+
+    const clickHandel =(e)=>{
+        e.preventDefault();
+         const searchText = e.target.search.value;
+         const searchData = allData.filter(data => data.Category.toLowerCase() === searchText.toLowerCase());
+         setDataBox(searchData)
+    }
+
+    
     return (
        <div>
          <div className=" mb-4">
-         <Banner></Banner>
+         <Banner  clickHandel={clickHandel}></Banner>
          </div>
         <div className=" grid grid-cols-4 gap-2">
             {
-                allData.map( data => <Card key={data.id} data={data}></Card>)
+                dataBox.map( data => <Card key={data.id} data={data}></Card>)
             }
 
         </div>
