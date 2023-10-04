@@ -12,7 +12,7 @@ const Statistics = () => {
         setStore(storeDonate)
     }, [store])
 
-    const fixedValue = Total.length;
+    const fixedValue = (Total.length - store || 0);
 
     const data = [
         ["Donation Type", "Donation Value", { role: "style" }],
