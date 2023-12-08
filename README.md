@@ -1,6 +1,9 @@
 # Live Link :
 
 
+## Used Technology :
+
+- React / javascript / Taildwind
 
 ## Project Feature :
 
