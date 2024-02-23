@@ -5,7 +5,7 @@
 
 - React / javascript / Taildwind
 
-## Project Feature :
+## Project Feature:
 
 - Donation can be done through donation card.
 -  Donation data will be backed up on local storage.
